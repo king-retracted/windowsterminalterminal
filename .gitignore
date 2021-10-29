@@ -30,3 +30,4 @@ server/themes.json
 private.todo
 app/cypress/videos
 app/cypress/screenshots
+__pycache__/
