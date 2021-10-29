@@ -11,7 +11,7 @@ From source
 3. Run the program ``python main.py`` 
 
 
-Route 2
+Route 2 *Still not setup yet.*
 1. Install the [PyPi Project]().
 2. Run the project
 
