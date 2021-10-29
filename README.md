@@ -35,5 +35,6 @@ Route 2
 ```
 
 ## ToDo List
-- Automatic Updating
-- Visualization of themes
+- [ ] Automatic Updating
+- [ ] Visualization of themes
+- [ ] **custom-colour-schemes.json**
