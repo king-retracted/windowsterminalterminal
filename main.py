@@ -62,12 +62,17 @@ def installTheme():
         cprint('Are you sure you want to install {}? (Y/n)'.format(dataObj['name']), color='blue')
         
         if input(colored(' > ', color='yellow')) in ('Y', 'y', '', 'yes'):
+
+            cprint('Apply Theme to Default? (Y/n)', color='blue')
+            rewriteToUseDefault = input(colored(' > ', color='yellow')) in ('Y', 'y', '', 'yes')
+
             with open(configFile, 'r+') as f:
                 configDat['schemes'].append(dataObj)
-                updatedConfig = json.dumps(configDat)
+                configDat['profiles']['defaults']['colorScheme'] = themeDat[indexInput]['name'] if rewriteToUseDefault else configDat['profiles']['defaults']['colorScheme']
+                updatedConfig = json.dumps(configDat, indent=4)
+                f.write('')
                 f.write(updatedConfig)
 
-                cprint('Updated configuration file.', color='green')
                 cprint('Ejecting... (don\'t worry, it worked.)', color='red')
                 quit()
         else:
