@@ -1,5 +1,12 @@
-# WindowsTerminalTerminal
-Automatic installation of the new Windows Terminal themes.
+<p align='center'>
+    <img width='600' src='git_assets/wtt_icon.png'>
+</p>
+
+<h1 align='center'>WindowsTerminalTerminal</h1>
+
+<h3 align='center'>Automatic installation of the new Windows Terminal themes.</h3>
+
+![Example Here](git_assets/version101_recording.gif)
 
 ### Notice!
 I do not take credit for the themes. The themes all come from the amazing people at [this repo](https://github.com/atomcorp/themes). This project would not be possible without them. Much love ❤️.
