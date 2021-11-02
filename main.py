@@ -3,6 +3,7 @@ from os import path, getcwd, getlogin, system as system_run
 from platform import system
 import json
 from vars import _VERSION
+from update import main as update_main
 
 # red = error
 # green = success
@@ -93,7 +94,8 @@ Running on version: {}
 functonToSelection = {
     '0': listThemes,
     '1': installTheme,
-    '2': printAbout,
+    '2': update_main,
+    '3': printAbout,
 }
 
 
@@ -104,12 +106,13 @@ def main():
 Windows Terminal Terminal
 [0] - List Themes
 [1] - Install Theme
-[2] - About
-[3] - Quit
+[2] - Check for updates
+[3] - About
+[4] - Quit
 ''', color='blue')
     userSelect = input(colored(' > ', color='yellow'))
-    if userSelect in ('0', '1', '2', '3'):
-        if userSelect == '3':
+    if userSelect in ('0', '1', '2', '3', '4'):
+        if userSelect == '4':
             quit()
         else:
             functonToSelection[userSelect]()

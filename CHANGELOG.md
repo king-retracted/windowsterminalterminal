@@ -17,3 +17,14 @@ See example:
 ![Example](git_assets/version101_recording.gif)
     
 Written by RainWashedROM/KingRetracted
+
+### Version 1.0.2
+- Added an automadic updater
+- Remotely fetches the newest 
+
+See exmaple:
+![Example]
+
+Written by RainWashedROM/KingRetracted
+
+---
