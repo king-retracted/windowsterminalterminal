@@ -1,7 +1,7 @@
 from termcolor import cprint, colored
 from os import path, getcwd, getlogin, system as system_run
 from platform import system
-import json
+import jstyleson as json
 from vars import _VERSION
 from update import main as update_main
 
@@ -91,7 +91,7 @@ Running on version: {}
     )
     input(colored(' > Press Enter to Return < \n', color='yellow'))        
 
-functonToSelection = {
+functionToSelection = {
     '0': listThemes,
     '1': installTheme,
     '2': update_main,
@@ -115,7 +115,7 @@ Windows Terminal Terminal
         if userSelect == '4':
             quit()
         else:
-            functonToSelection[userSelect]()
+            functionToSelection[userSelect]()
         main()
     else:
         cprint('Not a valid index.', color='red')

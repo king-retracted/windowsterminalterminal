@@ -37,8 +37,7 @@ Route 2 *Still not setup yet.*
 
 ## Known Bugs
 ```python
-# None have been reported yet.
-# yay 😄
+- [✅ - Resolved, 1.0.2b] Unable to load Windows Terminal Configuration file.
 ```
 
 ## ToDo List

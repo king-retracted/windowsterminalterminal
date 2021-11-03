@@ -19,11 +19,18 @@ See example:
 Written by RainWashedROM/KingRetracted
 
 ### Version 1.0.2
-- Added an automadic updater
+- Added an automatic updater
 - Remotely fetches the newest 
 
-See exmaple:
+See example:
 ![Example]
+
+Written by RainWashedROM/KingRetracted
+
+---
+
+### Version 1.0.2b
+- Fixed bug #1
 
 Written by RainWashedROM/KingRetracted
 
